@@ -27,7 +27,7 @@ let student = [{
     email: "deep@gmail.com",
 }, {
     fristname: "harsh",
-    lastname: " patel",
+    lastname: " mehta",
     age: 20,
     gender: "male",
     address: {
@@ -38,7 +38,7 @@ let student = [{
     contact: "9499505567",
     email: "harsh@gmail.com",
 }, {
-    fristname: "jay",
+    fristname: "krish",
     lastname: " kalathiya",
     age: 19,
     gender: "male",
@@ -51,7 +51,7 @@ let student = [{
     contact: "914689976",
     email: "jay@gmail.com",
 }, {
-    fristname: "smit",
+    fristname: "smita",
     lastname: " parmar",
     age: 18,
     gender: "male",
@@ -64,8 +64,8 @@ let student = [{
     contact: "914565888",
     email: "smit456@gmail.com",
 }, {
-    fristname: "raj",
-    lastname: " dubay",
+    fristname: "rajvi",
+    lastname: " patel",
     age: 21,
     gender: "male",
     address: {
@@ -77,7 +77,7 @@ let student = [{
     email: "raj123@gmail.com",
 }, {
     fristname: "Rohit",
-    lastname: " Sharma",
+    lastname: " mehta",
     age: 24,
     gender: "male",
     address: {
@@ -261,8 +261,8 @@ let student = [{
 },]
 student.forEach((object) => {
 
-    StudantData.innerHTML += (`<div class="col-4"><div class="card p-2 rounded-3  ">
-    <div class="d-flex mx-2 text-danger ">
+    StudantData.innerHTML += (`<div class="col-6"><div class="card p-2 rounded-3  ">
+    <div class="d-flex mx-2 ">
     <h3>Name : ${object.fristname}
     </h3>
     <h3 class="mx-2">  ${object.lastname}
